@@ -23,14 +23,14 @@ try:
     else:
         print("Not Connected")
     cursor = conn.cursor()
-    def sqlquary():
+    def sqlquery():
         
 
         # Database create query
-        quary =input("Enter SQL Quary :")
-        cursor.execute(quary)
+        quaery =input("Enter SQL Query :")
+        cursor.execute(query)
     
-    sqlquary()
+    sqlquery()
 
 
     conn.close()
@@ -38,4 +38,5 @@ try:
 
 except Exception as e:
     print("ERROR:", e)
+
 
