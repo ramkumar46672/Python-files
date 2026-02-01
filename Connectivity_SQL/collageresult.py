@@ -8,8 +8,8 @@ try:
     conn = mysql.connector.connect(
         host="localhost",  # Force IPv4
         user="root",
-        password="Ram@2145",
-        database="mall",
+        password="your password",
+        database="student",
         port=3306,
         auth_plugin="mysql_native_password",
         use_pure=True,
@@ -44,4 +44,5 @@ try:
     print("Connection closed")
 
 except Exception as e:
+
     print("ERROR:", e)
